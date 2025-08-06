@@ -6,7 +6,7 @@ import { User } from "lucide-react";
 export const Action = async () => {
 
     const user = await currentUser();
-    return(
+    return (
         <div className="flex items-center gap-x-2 justify-end ml-4 lg:ml-0">
             {!user && (
                 <SignInButton>
@@ -17,8 +17,8 @@ export const Action = async () => {
             )}
             {!!user && (
                 <div className="flex items-center gap-x-4">
-                    <UserButton 
-                        afterSignOutUrl="/"/>
+                    <UserButton
+                        afterSignOutUrl="/" />
                 </div>
 
             )}
