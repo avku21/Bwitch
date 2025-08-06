@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      Only authenticated users can see this!
+    <div className="flex flex-col gap-y-4">
+      Home page
     </div>
   );
 }
