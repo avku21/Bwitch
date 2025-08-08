@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { SignIn, SignInButton, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server"
-import { User } from "lucide-react";
 
 export const Action = async () => {
 
